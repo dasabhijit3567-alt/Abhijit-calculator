@@ -1,0 +1,165 @@
+header {
+  position: sticky;
+  top: 0px;
+}
+
+.d1 {
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+  background-color: rgb(232, 243, 250);
+}
+
+nav {
+  background-color: rgb(241, 240, 240);
+  position: relative;
+  height: 80px;
+  margin-top: -16px;
+}
+
+.nav li {
+  display: inline-flex;
+  margin-left: 15px;
+}
+
+.ul1 li {
+  list-style: none;
+  position: relative;
+  font-size: 17px;
+}
+
+.ul1 a {
+  text-decoration: none;
+  color: black;
+}
+
+.ul1 li a:hover {
+  font-weight: bold;
+}
+
+.in1:hover {
+  font-weight: bold;
+}
+
+.more:hover {
+  font-weight: bold;
+}
+
+.ul1 img {
+  height: 55px;
+  margin-left: 20px;
+  margin-top: -40px;
+  position: absolute;
+}
+
+.in1 {
+  margin-left: 180px;
+  margin-right: 15px;
+  margin-top: 28px;
+}
+
+.more {
+  margin-left: 15px;
+}
+
+.search {
+  padding: 8px;
+  width: 300px;
+  background-color: rgba(209, 218, 221, 0.371);
+  border-radius: 30px;
+  margin-left: 200px;
+}
+
+.li1 {
+  position: absolute;
+  display: none;
+}
+
+.in1:hover div {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  height: 200px;
+  width: 800px;
+  background-color: white;
+  margin-top: 30px;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.li2 {
+  position: absolute;
+  display: none;
+}
+
+.more:hover div {
+  display: block;
+  height: 180px;
+  width: 180px;
+  background-color: white;
+  margin-top: 30px;
+  padding-top: 15px;
+  line-height: 27px;
+  padding-left: 20px;
+}
+
+.details img {
+  height: 60px;
+  width: 60px;
+}
+
+.details {
+  background-color: aliceblue;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  padding-top: 7px;
+}
+
+.details p {
+  margin-left: 70px;
+  margin-top: -45px;
+  font-size: 13px;
+}
+
+.exclusive{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 30px;
+   
+}
+
+.exclusive img{
+    height: 250px;
+    width: 225px;
+    display: flex;
+    border-radius: 15px;
+    
+}
+
+.sp1{
+    background-color: rgba(0, 0, 0, 0.925);
+    color: aliceblue;
+    position: relative;
+    top: -250px;
+    border-top-left-radius: 9px;
+}
+
+.sp2{
+    display: flex;
+    background-color: yellow;
+    position: relative;
+    top: -37px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding: 5px;
+}
+
+.SC{
+    display: flex;
+    justify-content: space-between;
+}
+.SC img{
+    height: 90px;
+    width: 90px;
+}
+
